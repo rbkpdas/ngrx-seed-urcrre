@@ -1,0 +1,6 @@
+<counter [counter]="counter | async"
+  (increment)="increment()"
+  (decrement)="decrement()"
+  (reset)="reset()"></counter>
+
+<hr/> The current url is: {{ currentUrl | async }}
